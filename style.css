@@ -1,0 +1,399 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  line-height: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+header {
+  min-height: 100vh;
+  background-color: black;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  margin-left: 10rem;
+  max-width: 100px;
+  position: relative;
+}
+nav ul {
+  margin-right: 3rem;
+  padding: 1rem;
+}
+nav ul li {
+  display: inline-block;
+  margin: 10px;
+}
+nav li a {
+  color: white;
+  padding: 1rem;
+  padding-left: 1rem;
+  position: relative;
+  text-decoration: none;
+}
+nav li a:hover {
+  background-color: red;
+  transition: 0.5s;
+}
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin-top: 15rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.intro {
+  margin-bottom: 1rem;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+.auto-input {
+  color: red;
+}
+.first-para {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.first-btn {
+  font-size: 1rem;
+  padding: 8px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: red;
+  color: white;
+}
+.first-btn:hover {
+  background-color: white;
+  color: red;
+}
+/*---------- About---------  */
+.about {
+  padding: 80px;
+  color: #ababab;
+  background-color: black;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.about-1 {
+  flex-basis: 35%;
+}
+.about-1 img {
+  border-radius: 15px;
+}
+.about-2 {
+  flex-basis: 60%;
+}
+.about-me {
+  font-size: 1.2rem;
+}
+.sub-title {
+  font-size: 60px;
+  font-weight: 600px;
+  color: white;
+  margin-bottom: 2rem;
+}
+.tab-links {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: red;
+  font-size: 1.5rem;
+}
+.tab-contents {
+  line-height: 3rem;
+}
+.year {
+  color: red;
+}
+.skill-page {
+  color: white;
+  text-align: center;
+  /* height: 100vh; */
+  margin-top: 3rem;
+  border: 2px solid white;
+}
+.icons-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+.skill-h1 {
+  margin-bottom: 4rem;
+  font-family: "Style Script", cursive;
+}
+
+/* .hey {
+  padding: 2rem;
+} */
+.fa-brands {
+  background-color: red;
+}
+.icon-background {
+  background-color: red;
+  padding: 2rem;
+  border-top: 2px solid white;
+  border: 2px solid white;
+  border-radius: 9px;
+}
+.my-projects {
+  color: white;
+  padding: 1rem;
+}
+.my-work {
+  font-size: 3rem;
+  padding: 3rem;
+  text-align: center;
+  margin-bottom: rem;
+  color: #ff004f;
+}
+.work-list {
+  text-align: center;
+}
+.work img {
+  border-radius: 15px;
+}
+.prj-title {
+  padding: 1.5rem;
+}
+.prj-title-2 {
+  padding: 1rem;
+  line-height: 1.2rem;
+  width: 600px;
+  margin-left: 10rem;
+}
+.pic-game,
+.Guess-num {
+  color: red;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.Guess-num-p,
+.pic-game-p {
+  font-size: 1.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 1.5rem;
+}
+.my-projects a {
+  color: rgb(184, 15, 44);
+  background-color: white;
+  padding: 8px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+.my-projects a:hover {
+  background-color: red;
+  color: white;
+}
+.my-projects {
+  height: 100vh;
+}
+.skill-prj {
+  min-height: 100vh;
+}
+.work img:hover {
+  cursor: pointer;
+  transform: translateY(-10px);
+}
+/* ------contact-------- */
+.content-main {
+  margin-top: 5rem;
+}
+#contact {
+  color: white;
+  padding: 1rem;
+  margin-left: 5rem;
+  line-height: 2rem;
+  min-height: 60vh;
+  margin-top: 3rem;
+}
+.contact-left h1 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+.contact-right {
+  margin-right: 3rem;
+  flex-basis: 60%;
+}
+.contact-left {
+  flex-basis: 35%;
+}
+.contact-left p {
+  margin-top: 30px;
+}
+.contact-left p i {
+  color: #ff004f;
+  margin-right: 15px;
+  font-size: 25px;
+}
+.social-icons a {
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 15px;
+  color: #ababab;
+  display: inline-block;
+  transition: 1s;
+  margin-top: 1rem;
+}
+.fa-instagram,
+.fa-linkedin,
+.fa-github,
+.fa-facebook {
+  color: white;
+  background: black;
+}
+.insta:hover {
+  color: #ff004f;
+  transform: translateY(-5px);
+}
+.fb:hover {
+  color: #ff004f;
+  transform: translateY(-5px);
+}
+.link:hover {
+  color: #ff004f;
+  transform: translateY(-5px);
+}
+.git:hover {
+  color: #ff004f;
+  transform: translateY(-5px);
+}
+.btn2 {
+  padding: 10px 1rem;
+  background-color: #ff004f;
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 6px;
+}
+.btn2 a {
+  text-decoration: none;
+  color: black;
+  background: none;
+}
+.contact-right form {
+  max-width: 100%;
+}
+form input,
+form textarea {
+  min-width: 100%;
+  border: 0;
+  outline: none;
+  padding: 15px;
+  margin: 15px 0;
+  /* color: #fff; */
+  font-size: 18px;
+  border-radius: 6px;
+}
+.copyright {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 10px 0;
+  background-color: #262626;
+  width: 100%;
+  font-weight: 300;
+  color: #fff;
+  margin-top: 10px;
+}
+.pig-img {
+  margin-top: 5rem;
+}
+/* -----------media quries-------- */
+@media only screen and (max-width: 600px) {
+  .logo {
+    text-align: start;
+  }
+  .section-1 {
+    margin-top: 6rem;
+  }
+  .intro {
+    font-size: 0.8rem;
+  }
+  .first-para {
+    max-width: 300px;
+    text-align: center;
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .about img {
+    max-width: 100px;
+  }
+  .sub-title {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  .skill-prj {
+    max-width: 500px;
+  }
+  .skill-page {
+    max-width: 370px;
+  }
+  .fa-brands {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .my-projects img {
+    max-width: 100px;
+    margin-right: 7rem;
+  }
+  .work-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .pic-game-p {
+    max-width: 350px;
+    line-height: 2rem;
+    align-items: center;
+  }
+  .pic-game {
+    margin-top: 2rem;
+    margin-right: 7rem;
+  }
+  .my-work {
+    max-width: 330px;
+    font-size: 2rem;
+    margin-right: 1.4rem;
+  }
+  .Guess-num {
+    max-width: 300px;
+  }
+  .Guess-num-p {
+    width: 300px;
+    text-align: center;
+    line-height: 2rem;
+  }
+  .game-link {
+    margin-right: 6rem;
+  }
+  .pig-game {
+    display: inline-block;
+    max-width: 40%;
+    margin-top: 3rem;
+  }
+  .contact-me {
+    margin-top: 4rem;
+  }
+  .contact-left h1 {
+    font-size: 2rem;
+  }
+}
+#msg {
+  font-size: 2rem;
+  color: #ff004f;
+  display: block;
+  margin-top: 1rem;
+}
+#info {
+  font-size: 1rem;
+}
