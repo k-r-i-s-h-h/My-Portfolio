@@ -69,11 +69,13 @@ nav li a:hover {
   cursor: pointer;
   font-weight: bold;
   background-color: red;
+}
+.first-btn a {
   color: white;
+  text-decoration: none;
 }
 .first-btn:hover {
-  background-color: white;
-  color: red;
+  transform: translateY(5px);
 }
 /*---------- About---------  */
 .about {
